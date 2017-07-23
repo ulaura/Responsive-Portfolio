@@ -1,0 +1,82 @@
+/*	To format the div boxes for
+	portfolio.html */
+
+.image {
+	height: 20%;
+	width: 42%;
+	border: solid #4aaaa5 1px;
+	margin-bottom: 10px;
+}
+
+.cornbread {
+	position: relative;
+	float: left;
+	background-image: url("../images/cornbread.jpeg");
+	background-size: 100%; /*makes the image fit the size of the div container*/
+	background-position: center;
+}
+.carrot_cake {
+	position: relative;
+	float: right;
+	background-image: url("../images/carrot-cake.jpg");
+	background-size: 100%; /*makes the image fit the size of the div container*/
+	background-position: center;
+}
+
+.kombucha {
+	clear: both; 
+	/*	To get rid of the formatting
+		from above */
+	position: relative;
+	float: left;
+	background-image: url("../images/kombucha.jpg");
+	background-size: 100%; /*makes the image fit the size of the div container*/
+	background-position: top;
+}
+
+.tea {
+	position: relative;
+	float: right;
+	background-image: url("../images/tea.jpg");
+	background-size: 100%; /*makes the image fit the size of the div container*/
+	background-position: center;
+}
+
+.chicken_korma {
+	clear: both;
+	position: relative;
+	float: left;
+	background-image: url("../images/chicken-korma.jpg");
+	background-size: 100%; /*makes the image fit the size of the div container*/
+	background-position: center;
+}
+
+.corn_dogs {
+	position: relative;
+	float: right;
+	background-image: url("../images/corn-dogs.jpg");
+	background-size: 100%; /*makes the image fit the size of the div container*/
+	background-position: center;
+}
+
+.peanut_butter_cups {
+	clear: both;
+	position: relative;
+	float: left;
+	background-image: url("../images/peanut-butter-cups.jpg");
+	background-size: 100%; /*makes the image fit the size of the div container*/
+	background-position: center;
+}
+
+
+h2 {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	background: #4aaaa5;
+	text-align: center;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	padding: 2px 0;
+	color: white;
+}

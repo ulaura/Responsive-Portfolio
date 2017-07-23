@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/contact-style.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/media-query.css">
+	
+	<title>Laura Unaeze's Portfolio</title>
+</head>
+
+<body>
+	<div class="header">
+		<!-- Nested a separate container with absolute positioning within header div to handle the styling for the h1, p, and a tags more easily -->
+		<div class="header_container">
+			<h1>Laura Unaeze</h1>
+
+			<p>
+				<a href="index.html">About</a> |
+				<a href="portfolio.html">Portfolio</a> |
+				<a href="contact.html">Contact</a>
+			</p>
+		</div>
+	</div>
+
+
+	<div class="content_area">
+
+		<div class="main_section">
+			<h1>Contact</h1>
+			<hr> <!-- Stands for "horizontal rule. It will add a visible line with a line break." -->
+
+			<form>
+				Name:<br>
+				<input class="input_line" type="text" name="fullname" value="John Smith" size="50"> <!-- "size" determines the length of the text line by characters. -->
+
+				<br>
+
+				Email:<br>
+				<input type="text" name="email" value="email@example.com" size="50">
+
+				<br>
+
+				Message:<br>
+				<textarea name="message" rows="15" cols="50"></textarea>
+				<!-- "rows" and "cols" determines the area of the text box. -->
+				
+				<br>
+
+				<input type="submit" value="Submit">
+
+			</form>
+
+		</div>
+
+		<div class="connect_box">
+			<h1>Connect With Me</h1>
+			<hr>
+			<!-- I nested another div to make positioning easier for me. -->
+			<div class="connect_images">
+
+				<a href="https://github.com/ulaura" target="_blank">
+					<img src="assets/images/github-logo.png" alt="GitHub Logo">
+				</a>
+				
+				<a href="https://www.linkedin.com/in/laura-unaeze/" target="_blank">
+					<img src="assets/images/linkedin-logo.png" alt="LinkedIn Logo">
+				</a>
+				
+				<a href="https://stackoverflow.com/users/8180728/ulaura" target="_blank">
+					<img src="assets/images/stackoverflow-logo.png" alt="StackOverflow Logo">
+				</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="footer">
+		<p>&#169; Copyright 2017 Laura Unaeze</p>
+	</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

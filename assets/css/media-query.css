@@ -1,0 +1,49 @@
+/*Media Queries*/
+
+@media screen and (max-width: 980px) {  
+
+	.main_section {
+		width: 360px; /*total width is 420px*/
+		height: 770px; /*total height is 845px*/
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 40px;
+		padding-bottom: 35px;
+	}
+
+	.main_section p {
+		font-size: 12px;
+	}
+
+	.content_area {
+	border: solid purple 5px;
+	margin-left: 10%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 640px;
+	width: 960px;
+	}
+
+
+	.main_section img {
+	display: block;
+	padding-bottom: 5px;
+	}
+}
+	
+
+
+@media screen and (max-width: 768px) { 
+
+
+
+
+}
+
+
+@media screen and (max-width: 640px) {  
+
+
+
+
+}

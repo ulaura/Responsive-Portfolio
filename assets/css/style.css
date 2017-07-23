@@ -1,0 +1,165 @@
+/*	General CSS stylsheet accross
+	all three pages. Things were getting
+	complicated, so I decided to make
+	separate CSS files to help myself
+	stay organized. 
+*/
+
+body {
+	/*background image found at www.subtlepatterns.com*/
+	background-image: url("../images/lightmesh2X.png");
+	background-repeat: repeat;
+}
+
+/*Header tag for the main section.
+It's the title of what the section covers.*/
+.main_section h1 {
+	font-size: 40px;
+	font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+/*Header container*/
+.header {
+	position: static;
+	height: 90px;
+	/*border: red solid 5px;*/
+	background: #ffffff;
+	border-bottom: 2px;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	top: 0;
+}
+
+/*affects the positioning that h1, p, and a
+tags within the header container*/
+.header_container {
+	position: absolute;
+	background: #ffffff;
+	/*border: solid pink 5px;*/
+	height: 90px;
+	width: 960px;
+	margin-left: 10%;
+}
+
+/*The group of links in the header.
+This container exists to make link positioning
+easier within the header.*/
+.header p {
+	position: relative;
+	float: right;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	background: #ffffff;
+	height: 46px; /*Total height is 90px*/
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+/*The individual links in the header*/
+.header a {
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+}
+
+/*My name within the header*/
+.header h1 {
+	position: relative;
+	float: left;
+	font-size: 40px;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	background: #4aaaa5;
+	color: #ffffff;
+	height: 46px; /*Total height is 90px*/
+	padding-top: 22px;
+	padding-bottom: 22px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+/*The container holding both the main section
+and the connect with me box*/
+.content_area {
+	border: solid purple 5px;
+	margin-left: 10%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 605px;
+	width: 960px;
+}
+
+/*The main section of the page.
+Info changes depending on page.*/
+.main_section {
+	border: solid #dddddd 2px;
+	/*border: solid orange 5px; <--Commented out in case I have to go back and fix this div*/
+	background: #ffffff;
+	position: absolute;
+	float: left;
+	width: 590px; /*total width is 650px*/
+	height: 535px; /*total height is 605px*/
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+/*The div container within the content area with
+links to my external profiles around the web.*/
+.connect_box {
+	clear: both;
+	position: relative;
+	float: right;
+	/*border: solid green 5px;*/
+	background: #ffffff;
+	border: solid #dddddd 2px;
+	width: 206px; /*total width is 270px*/
+	height: 130px; /*total height is 200px*/
+	padding-top: 30px;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-bottom: 40px;
+}
+
+/*The div container to help position the icons in the connect_box*/
+.connect_images {
+	/*border: solid 5px black;*/
+	height: 90px;
+	background: #ffffff;
+}
+
+/*The images themseles within the connect_images div container*/
+.connect_images img {
+	display: block;
+	float: left;
+	/*the images I have are square, so defining the height AND width ruins the image*/
+	height: 60%;
+	margin-right: 14px;
+}
+
+
+.connect_box h1 {
+	font-size: 20px;
+	font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+
+.footer {
+	clear: both;
+	position: static;
+	bottom: 0;
+	/*border: red solid 5px;*/
+	height: 45px;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 16px;
+	color: black;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	background: #666666;
+	border-top: 10px;
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+}
+
+
+

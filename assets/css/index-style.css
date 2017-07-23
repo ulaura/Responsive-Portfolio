@@ -1,0 +1,17 @@
+/*stylesheet specificly for index.html*/
+
+.main_section p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #777777;
+	line-height: 150%;
+}
+
+.main_section img {
+	display: block;
+	position: relative;
+	float: left;
+	padding-right: 5px;
+	height: 45%; 
+	width: 32%;
+}
