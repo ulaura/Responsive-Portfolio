@@ -1,4 +1,5 @@
 /*Media Queries*/
+/*New plan. Create a media query css for each page*/
 
 @media screen and (max-width: 980px) {  
 
@@ -12,7 +13,7 @@
 		margin-top: 40px;
 		margin-bottom: 40px;
 		width: 730px;
-		height: 930px;
+		height: 850px;
 	}
 
 	.main_section {
@@ -30,8 +31,6 @@
 	}
 
 
-
-
 	.main_section img {
 		display: block;
 		position: relative;
@@ -41,10 +40,19 @@
 		padding-bottom: 10px;
 		width: 60%;
 		height: 35%;
-
-
-
 	}
+
+	/*portfolio page*/
+	/*Move this to portfolio-media-query.css
+	once it's created*/
+	.image {
+		height: 12%;
+		width: 100%;
+		border: solid #4aaaa5 1px;
+		margin-bottom: 10px;
+	}
+
+	
 }
 	
 
