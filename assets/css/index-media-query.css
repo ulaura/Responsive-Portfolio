@@ -170,44 +170,66 @@
 @media screen and (max-width: 640px) {  
 
 	.header {
-		width: 768px;
+		width: 640px;
+		height: 156px;
 	}
 
 	.header h1 {
+		width: 100%;
+		height: 40px;  /*total height is 90px*/
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 0; /*to undo padding from previous areas*/
+		padding-right: 0; /*to undo padding from previous areas*/
 		font-size: 35px;
 		font-weight: bold;
+		text-align: center;
+		
 	}
 
-	.footer {
-		width: 768px;
+	.header p {
+		float: left;
+		width: 100%;
+		height: 16px; /*total height is 66px*/
+		padding-top: 25px
+		padding-bottom: 25px;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.header a {
+		padding-right: 65px;
+		padding-left: 65px; 
 	}
 
 
 	.header_container {
-		width: 730px;
-		margin-left: 20px;
-		margin-right: 25px;
+		width: 640px;
+		height: 156px; /*width and height match the header*/
+		margin-left: 0; /*to undo the margin-left: 10% everywhere else*/;
+
 	}
+
 
 	.content_area {
 		/*border: solid purple 1px;*/
 		margin-left: 20px;
 		margin-right: 20px;
-		margin-top: 40px;
+		margin-top: 24px;
 		margin-bottom: 40px;
-		width: 730px;
-		height: 755px;
+		width: 600px;
+		height: 1050px;
 	}
 
 	.main_section {
 		position: relative;
 		float: left;
-		width: 670px; /*total width is 730px*/
-		height: 439px; /*total height is 514px*/
+		width: 540px; /*total width is 600px*/
+		height: 730px; /*total height is 810px*/
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-top: 40px;
-		padding-bottom: 35px;
+		padding-bottom: 40px;
 		margin-bottom: 40px;
 	}
 
@@ -219,7 +241,7 @@
 	}
 
 	.main_section p {
-		font-size: 17px;
+		font-size: 17.5px;
 	}
 
 
@@ -227,10 +249,10 @@
 		display: block;
 		position: relative;
 		float: left;
-		margin-left: 0;
-		margin-right: 20px;
-		width: 30%;
-		height: 60%;
+		margin-left: 30%;
+		margin-right: 30%;
+		width: 40%;
+		height: 40%;
 	}
 	
 	.connect_box {
@@ -240,12 +262,12 @@
 		/*border: solid green 5px;*/
 		background: #ffffff;
 		border: solid #dddddd 2px; /*overrides test border above*/
-		width: 670px; /*total width is 730px*/
-		height: 133px; /*total height is 203px*/
+		width: 540px; /*total width is 600px*/
+		height: 130px; /*total height is 200px*/
 		padding-left: 30px;
 		padding-right: 30px;
-		padding-top: 35px;
-		padding-bottom: 35px;
+		padding-top: 30px;
+		padding-bottom: 40px;
 		margin-bottom: 40px;
 	}
 
@@ -266,5 +288,13 @@
 		color: #4aaaa5;
 	}
 	
+	.footer {
+		width: 640px;
+		height: 95px;
+	}
+
+	.footer p {
+		padding-top: 20px;
+	}
 }
 
