@@ -90,14 +90,14 @@
 		margin-top: 40px;
 		margin-bottom: 40px;
 		width: 730px;
-		height: 755px;
+		height: 1225px;
 	}
 
 	.main_section {
 		position: relative;
 		float: left;
 		width: 670px; /*total width is 730px*/
-		height: 439px; /*total height is 514px*/
+		height: 905px; /*total height is 980px*/
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-top: 40px;
@@ -112,6 +112,17 @@
 		padding-bottom: 10px;
 	}
 
+	.image {
+		height: 20%;
+		width: 45%;
+		border: solid #4aaaa5 1px;
+		margin-bottom: 32px;
+	}
+
+	h2 {
+		font-size: 25px;
+		padding: 5px 0;
+	}
 
 	
 	.connect_box {
