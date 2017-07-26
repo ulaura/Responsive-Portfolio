@@ -1,6 +1,11 @@
 /*Media Query for index.html*/
 
-@media screen and (max-width: 980px) {  
+@media screen and (max-width: 980px) { 
+
+	.header h1 {
+		font-size: 35px;
+		font-weight: bold;
+	}
 
 	.header_container {
 		width: 730px;
@@ -24,6 +29,13 @@
 		padding-bottom: 35px;
 	}
 
+	.main_section h1 {
+		font-size: 30px;
+		font-weight: bold;
+		color: #4aaaa5;
+		padding-bottom: 10px;
+	}
+
 	.main_section p {
 		font-size: 15.5px;
 		position: relative;
@@ -40,6 +52,14 @@
 		width: 60%;
 		height: 35%;
 	}
+
+	.connect_box h1 {
+		padding-top: 0;
+		padding-bottom: 10px;
+		font-family:'Georgia', Times, Times New Roman, serif;
+		font-weight: bold;
+		color: #4aaaa5;
+	}
 	
 }
 	
@@ -47,9 +67,103 @@
 
 @media screen and (max-width: 768px) { 
 
+	.header {
+		width: 768px;
+	}
+
+	.header h1 {
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	.footer {
+		width: 768px;
+	}
 
 
+	.header_container {
+		width: 730px;
+		margin-left: 20px;
+		margin-right: 25px;
+	}
 
+	.content_area {
+		/*border: solid purple 1px;*/
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		width: 730px;
+		height: 755px;
+	}
+
+	.main_section {
+		position: relative;
+		float: left;
+		width: 670px; /*total width is 730px*/
+		height: 439px; /*total height is 514px*/
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 40px;
+		padding-bottom: 35px;
+		margin-bottom: 40px;
+	}
+
+	.main_section h1 {
+		font-size: 30px;
+		font-weight: bold;
+		color: #4aaaa5;
+		padding-bottom: 10px;
+	}
+
+	.main_section p {
+		font-size: 17px;
+	}
+
+
+	.main_section img {
+		display: block;
+		position: relative;
+		float: left;
+		margin-left: 0;
+		margin-right: 20px;
+		width: 30%;
+		height: 60%;
+	}
+	
+	.connect_box {
+		clear: both;
+		position: relative;
+		float: left;
+		/*border: solid green 5px;*/
+		background: #ffffff;
+		border: solid #dddddd 2px; /*overrides test border above*/
+		width: 670px; /*total width is 730px*/
+		height: 133px; /*total height is 203px*/
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 35px;
+		padding-bottom: 35px;
+		margin-bottom: 40px;
+	}
+
+	.connect_images img {
+		display: block;
+		float: left;
+		/*the images I have are square, so defining the height AND width ruins the image*/
+		height: 80%;
+		margin-right: 14px;
+	}
+
+	.connect_box h1 {
+		font-size: 25px;
+		padding-top: 0;
+		padding-bottom: 10px;
+		font-family:'Georgia', Times, Times New Roman, serif;
+		font-weight: bold;
+		color: #4aaaa5;
+	}
+	
 }
 
 
