@@ -2,13 +2,17 @@
 
 @media screen and (max-width: 640px) {  
 
-	.header {
+	body {
 		width: 640px;
+	}
+	.header {
+		max-width: 640px; 
 		height: 156px;
+		padding: 0;
 	}
 
 	.header h1 {
-		width: 100%;
+		width: 640px;
 		height: 40px;  /*total height is 90px*/
 		padding-top: 25px;
 		padding-bottom: 25px;
@@ -37,7 +41,7 @@
 
 
 	.header_container {
-		width: 640px;
+		max-width: 640px;
 		height: 156px; /*width and height match the header*/
 		margin-left: 0; /*to undo the margin-left: 10% everywhere else*/;
 
@@ -133,7 +137,7 @@
 
 
 
-@media screen (min-width: 641px) and (max-width: 768px) { 
+@media screen and (min-width: 641px) and (max-width: 768px) { 
 
 	.header {
 		width: 768px;
@@ -237,7 +241,7 @@
 
 
 
-@media screen and (max-width: 980px) { 
+@media screen and (min-width: 769px) and (max-width: 980px) { 
 
 	.header h1 {
 		font-size: 35px;
